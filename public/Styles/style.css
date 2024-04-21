@@ -1,0 +1,129 @@
+.body-style {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* margin-left: 10%;
+    margin-right: 10%; */
+}
+
+header,
+.title{
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+}
+
+.div-box-one,
+.div-box-two,
+.div-box-three {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.title-logo {
+  font-size: 32px;
+  margin-top: 2%;
+  padding: 2%;
+}
+
+.strong-one {
+  color: #FF6E48;
+}
+
+.strong-two {
+  color: #FFB736;
+}
+
+.div-box-three {
+  width: 20%;
+  justify-content: flex-end;
+  gap: 15px;
+
+}
+
+.logo {
+  width: 71px;
+  height: 68px;
+}
+
+.pesquisa {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  /* Largura máxima do campo de pesquisa */
+  margin: 0 auto;
+  /* Centralizar na tela */
+  border: 2px solid #ccc;
+  /* Borda do campo de pesquisa */
+  border-radius: 5px;
+  /* Borda arredondada */
+  padding: 10px;
+  /* Espaçamento interno */
+}
+
+/* Estilo para o ícone de lupa */
+.pesquisa img {
+  width: 20px;
+  /* Tamanho do ícone */
+  height: auto;
+  margin-right: 10px;
+  /* Espaçamento entre o ícone e o texto */
+}
+
+.pesquisa input[type="text"] {
+  width: 100%;
+  padding: 10px 40px 10px 20px;
+  /* Adicionando espaço para o ícone */
+  border: 2px solid #ccc;
+  /* Borda do campo de pesquisa */
+  border-radius: 5px;
+  /* Borda arredondada */
+  background-image: url('/home/gustavo-dev/dev/virtual-shelf-shopping/public/Assets/pesquisa.svg');
+  /* Ícone de pesquisa */
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  /* Posicionamento do ícone */
+  background-size: 20px;
+  /* Tamanho do ícone */
+  outline: none;
+  /* Remover o contorno ao focar */
+  font-size: 16px;
+  /* Tamanho da fonte */
+}
+
+.btn-warning {
+  font-size: 20px !important;
+  background-color: #FFB736 !important;
+  border: #FFB736 !important;
+  border-radius: 16px !important;
+  width: 160px !important;
+  height: 60px !important;
+}
+
+.btn-outline-warning {
+  font-size: 20px !important;
+  border-color: #FF6E48 !important;
+  color: #000000 !important;
+  border-radius: 16px !important;
+  width: 160px !important;
+  height: 60px !important;
+  border-width: 2px !important;
+}
+
+.btn-outline-warning:hover {
+  background-color: #ff6d4894 !important;
+  transition: background-color 0.6s ease !important;
+
+}
+
+.btn-outline-secondary:hover {
+  background-color: #5555552f !important;
+  transition: background-color 0.6s ease !important;
+}
+
